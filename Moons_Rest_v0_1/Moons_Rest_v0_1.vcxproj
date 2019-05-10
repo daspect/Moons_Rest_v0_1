@@ -142,7 +142,7 @@
     <ClInclude Include="Message.h" />
     <ClInclude Include="MessageHandler.h" />
     <ClInclude Include="ResourceHolder.hpp" />
-    <ClInclude Include="ResourceIdentifiers.hpp" />
+    <ClInclude Include="ResourceHolderForwardDef.inl" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

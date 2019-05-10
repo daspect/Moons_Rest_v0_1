@@ -2,8 +2,10 @@
 
 #include <iostream>
 
-//#include "ResourceHolder.hpp"
+//depricated
 //#include "ResourceIdentifiers.hpp"
+//#include "ResourceHolder.hpp"
+
 
 
 //Define comparison < operator between 2 entities

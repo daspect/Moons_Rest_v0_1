@@ -1,6 +1,10 @@
 #ifndef BOOK_RESOURCEHOLDER_HPP
 #define BOOK_RESOURCEHOLDER_HPP
-//Code below taken from SFML Game Dev Book
+//DEPENDENT ON HAVING ACCESS TO "Identifiers.h"
+
+/*Code below taken from SFML Game Dev Book - Modified by me. I moved the textures Enum from ResourceIdentifies.cpp to identifies.h
+I also moved the typedef of texture holder here from ResourceIdentifies.cpp
+I deleted ResourceIdentifies.cpp as it was no longer needed */
 
 #include <map>
 #include <string>
@@ -8,19 +12,7 @@
 #include <stdexcept>
 #include <cassert>
 
-//#include "ResourceIdentifiers.hpp" //I added this
 
-//start i added this
-namespace sf
-{
-	class Texture;
-}
-// Forward declaration and a few type definitions
-template <typename Resource, typename Identifier>
-class ResourceHolder;
-
-typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
-//end I added this
 
 
 
@@ -46,6 +38,19 @@ class ResourceHolder
 };
 
 #include "ResourceHolder.inl"
+
+
+//Start of code moved from ResourceIdentifies.cpp
+namespace sf
+{
+	class Texture;
+}
+// Forward declaration and a few type definitions
+//template <typename Resource, typename Identifier>
+//class ResourceHolder;
+
+typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
+//end of code moved from ResourceIdentifies.cpp
 
 #endif // BOOK_RESOURCEHOLDER_HPP
 

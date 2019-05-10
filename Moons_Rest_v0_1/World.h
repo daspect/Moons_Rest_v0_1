@@ -6,6 +6,7 @@
 
 //depricated
 //#include "Entity.h"
+//#include "ResourceHolderForwardDef.inl"
 
 //forward declarations
 class Entity;

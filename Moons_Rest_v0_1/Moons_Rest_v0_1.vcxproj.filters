@@ -64,10 +64,10 @@
     <ClInclude Include="ResourceHolder.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ResourceIdentifiers.hpp">
+    <ClInclude Include="World.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="World.h">
+    <ClInclude Include="ResourceHolderForwardDef.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -7,11 +7,13 @@
 //Depricated
 //#include <iostream>
 //#include "MessageHandler.h" //If I include this, everything breaks
-//#include "ResourceIdentifiers.hpp"
-//#include "Identifiers.h"
+
+#include "Identifiers.h"
 
 //forward declarations
 class MessageHandler;
+//#include "ResourceHolderForwardDef.inl"
+//typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
 //class TextureHolder; //this is covered by a typedef in "ResourceHolder.hpp"
 
 class Entity : public sf::Sprite
