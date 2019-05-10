@@ -1,17 +1,18 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-//moved to .cpp #include <iostream>
 #include <queue>
-#include "Message.h"
+#include <SFML/Graphics.hpp> //Entity derrives from class
+#include "Message.h" //Messages used to define Entity's message queue in header
+#include "ResourceHolder.hpp" //this has the typedef of texture holder of which a reference is declared in this header
+
+//Depricated
+//#include <iostream>
 //#include "MessageHandler.h" //If I include this, everything breaks
 //#include "ResourceIdentifiers.hpp"
-#include "ResourceHolder.hpp"
 //#include "Identifiers.h"
 
 //forward declarations
 class MessageHandler;
-//class TextureHolder;
-//class TextureHolder; //this is covered by a typedef in "ResourceIdentifiers.hpp"
+//class TextureHolder; //this is covered by a typedef in "ResourceHolder.hpp"
 
 class Entity : public sf::Sprite
 {
@@ -49,7 +50,7 @@ private:
 
 	std::queue<Message>				messageQueue;
 	std::vector<MessageType::ID>	subscriptions;
-	//MessageHandler*					messengerRef = NULL;
+	MessageHandler*					messengerRef = NULL;
 
 	
 	int		footprintHeight = 0;

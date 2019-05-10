@@ -1,11 +1,13 @@
 #pragma once
 #include "Identifiers.h"
+
+#include <SFML/Graphics.hpp> //This class uses sf:Time in the header
+#include "ResourceHolder.hpp" //This class declares the texture holder in the header
+
+//depricated
 //#include "Entity.h"
-#include <SFML/Graphics.hpp>
-#include "ResourceHolder.hpp"
-#include "Identifiers.h"
 
-
+//forward declarations
 class Entity;
 
 class World

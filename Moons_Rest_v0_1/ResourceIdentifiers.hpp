@@ -1,6 +1,5 @@
 #ifndef BOOK_RESOURCEIDENTIFIERS_HPP
 #define BOOK_RESOURCEIDENTIFIERS_HPP
-#include "Identifiers.h"
 
 //Code below taken from SFML Game Dev Book
 
@@ -10,8 +9,7 @@ namespace sf
 	class Texture;
 }
 
-/*
-moved to Identifiers
+
 namespace Textures
 {
 	enum ID
@@ -23,7 +21,7 @@ namespace Textures
 		PlayerRight,
 		Tree,
 	};
-}*/
+}
 
 // Forward declaration and a few type definitions
 template <typename Resource, typename Identifier>

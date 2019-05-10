@@ -1,16 +1,17 @@
 #pragma once
-//#include "MessageIdentifiers.inl"
-#include "Message.h"
-	/*
-	#include <SFML/Graphics.hpp>
-	#include "MessageIdentifiers.inl"
-	#include "Identifiers.h"
-	*/
-//#include "Identifiers.h"
-#include <queue>
-#include "World.h"
-#include "Entity.h"
 
+#include <queue>
+
+#include "Message.h" //this class works with message objects in the header
+
+//depricated
+//#include "MessageIdentifiers.inl"
+//#include "Entity.h"
+//#include <SFML/Graphics.hpp>
+//#include "Identifiers.h"
+
+//forward declarations
+class World;
 
 class MessageHandler
 {

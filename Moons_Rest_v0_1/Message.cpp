@@ -1,7 +1,5 @@
 #include "Message.h"
 
-
-
 Message::Message(MessageType::ID type) : messageType(type)
 {
 }

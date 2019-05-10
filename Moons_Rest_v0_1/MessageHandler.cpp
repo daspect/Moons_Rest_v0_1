@@ -1,5 +1,7 @@
 #include "MessageHandler.h"
 
+#include "World.h"
+#include "Entity.h"
 
 
 MessageHandler::MessageHandler(World* w) : world(w)

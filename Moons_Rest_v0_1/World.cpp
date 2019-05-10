@@ -1,10 +1,11 @@
 #include "World.h"
+
 #include "Entity.h"
+
+
 
 //Add inline definitions for loadTextures() and createEntities()
 #include "TextureAndEntityCreation.inl"
-
-
 
 World::World()
 {

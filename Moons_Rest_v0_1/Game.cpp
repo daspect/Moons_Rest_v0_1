@@ -1,5 +1,8 @@
 #include "Game.h"
 
+#include "Entity.h"
+
+
 const sf::Time Game::TimePerFrame = sf::seconds(1.f / 60.f);
 
 Game::Game() : frameSize(1000), window(sf::VideoMode(frameSize, frameSize), "Moons Rest"), messenger(&world)

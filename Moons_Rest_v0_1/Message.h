@@ -1,7 +1,11 @@
 #pragma once
-#include <SFML/Graphics.hpp>
+
 #include "MessageIdentifiers.inl"
 #include "Identifiers.h"
+
+//depricated
+//#include <SFML/Graphics.hpp>
+
 
 
 class Message
