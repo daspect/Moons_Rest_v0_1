@@ -1,20 +1,14 @@
 #pragma once
 #include <queue>
+
+#include "Identifiers.h"
 #include <SFML/Graphics.hpp> //Entity derrives from class
 #include "Message.h" //Messages used to define Entity's message queue in header
 #include "ResourceHolder.hpp" //this has the typedef of texture holder of which a reference is declared in this header
 
-//Depricated
-//#include <iostream>
-//#include "MessageHandler.h" //If I include this, everything breaks
-
-#include "Identifiers.h"
-
-//forward declarations
+//Forward declarations
 class MessageHandler;
-//#include "ResourceHolderForwardDef.inl"
-//typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
-//class TextureHolder; //this is covered by a typedef in "ResourceHolder.hpp"
+
 
 class Entity : public sf::Sprite
 {

@@ -13,9 +13,6 @@ I deleted ResourceIdentifies.cpp as it was no longer needed */
 #include <cassert>
 
 
-
-
-
 template <typename Resource, typename Identifier>
 class ResourceHolder
 {

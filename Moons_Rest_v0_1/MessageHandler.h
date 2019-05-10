@@ -4,12 +4,6 @@
 
 #include "Message.h" //this class works with message objects in the header
 
-//depricated
-//#include "MessageIdentifiers.inl"
-//#include "Entity.h"
-//#include <SFML/Graphics.hpp>
-//#include "Identifiers.h"
-
 //forward declarations
 class World;
 

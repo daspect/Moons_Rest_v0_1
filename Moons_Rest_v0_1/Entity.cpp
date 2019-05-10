@@ -2,11 +2,7 @@
 
 #include <iostream>
 
-//depricated
-//#include "ResourceIdentifiers.hpp"
-//#include "ResourceHolder.hpp"
-
-
+#include "MessageHandler.h"
 
 //Define comparison < operator between 2 entities
 bool Entity::operator<(const Entity &e2) const

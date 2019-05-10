@@ -3,10 +3,6 @@
 #include "MessageIdentifiers.inl"
 #include "Identifiers.h"
 
-//depricated
-//#include <SFML/Graphics.hpp>
-
-
 
 class Message
 {
