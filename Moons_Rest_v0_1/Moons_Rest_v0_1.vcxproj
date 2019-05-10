@@ -123,10 +123,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageHandler.cpp" />
+    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MessageIdentifiers.inl" />
+    <None Include="ResourceHolder.inl" />
+    <None Include="TextureAndEntityCreation.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Identifiers.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MessageHandler.h" />
+    <ClInclude Include="ResourceHolder.hpp" />
+    <ClInclude Include="ResourceIdentifiers.hpp" />
+    <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
