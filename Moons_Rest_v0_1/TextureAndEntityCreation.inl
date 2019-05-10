@@ -3,16 +3,16 @@
 void World::loadTextures()
 {
 	//BACKGROUNDS
-	textures.load(Textures::Landscape, "stardew2.png");
+	textures.load(Textures::Landscape, "Resources/stardew2.png");
 
 	//PLAYER
-	textures.load(Textures::PlayerDown, "sprite_front.png");
-	textures.load(Textures::PlayerUp, "sprite_back.png");
-	textures.load(Textures::PlayerLeft, "sprite_left.png");
-	textures.load(Textures::PlayerRight, "sprite_right.png");
+	textures.load(Textures::PlayerDown, "Resources/sprite_front.png");
+	textures.load(Textures::PlayerUp, "Resources/sprite_back.png");
+	textures.load(Textures::PlayerLeft, "Resources/sprite_left.png");
+	textures.load(Textures::PlayerRight, "Resources/sprite_right.png");
 
 	//SCENERY
-	textures.load(Textures::Tree, "palm.png");
+	textures.load(Textures::Tree, "Resources/palm.png");
 }
 
 void World::createEntities()
