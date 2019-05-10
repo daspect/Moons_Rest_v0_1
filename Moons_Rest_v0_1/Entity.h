@@ -1,13 +1,17 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include <iostream>
+//moved to .cpp #include <iostream>
 #include <queue>
 #include "Message.h"
 //#include "MessageHandler.h" //If I include this, everything breaks
-#include "ResourceIdentifiers.hpp"
+//#include "ResourceIdentifiers.hpp"
 #include "ResourceHolder.hpp"
-#include "Identifiers.h"
+//#include "Identifiers.h"
 
+//forward declarations
+class MessageHandler;
+//class TextureHolder;
+//class TextureHolder; //this is covered by a typedef in "ResourceIdentifiers.hpp"
 
 class Entity : public sf::Sprite
 {

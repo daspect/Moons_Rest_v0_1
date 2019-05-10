@@ -8,6 +8,21 @@
 #include <stdexcept>
 #include <cassert>
 
+//#include "ResourceIdentifiers.hpp" //I added this
+
+//start i added this
+namespace sf
+{
+	class Texture;
+}
+// Forward declaration and a few type definitions
+template <typename Resource, typename Identifier>
+class ResourceHolder;
+
+typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;
+//end I added this
+
+
 
 template <typename Resource, typename Identifier>
 class ResourceHolder
@@ -31,5 +46,6 @@ class ResourceHolder
 };
 
 #include "ResourceHolder.inl"
+
 #endif // BOOK_RESOURCEHOLDER_HPP
 

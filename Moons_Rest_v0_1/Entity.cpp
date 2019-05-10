@@ -1,4 +1,11 @@
 #include "Entity.h"
+#include <iostream>
+//#include "ResourceHolder.hpp"
+//#include "ResourceIdentifiers.hpp"
+
+
+
+
 
 //Define comparison < operator between 2 entities
 bool Entity::operator<(const Entity &e2) const

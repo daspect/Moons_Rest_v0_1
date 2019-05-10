@@ -1,8 +1,12 @@
 #pragma once
 #include "Identifiers.h"
-#include "Entity.h"
+//#include "Entity.h"
 #include <SFML/Graphics.hpp>
+#include "ResourceHolder.hpp"
+#include "Identifiers.h"
 
+
+class Entity;
 
 class World
 {

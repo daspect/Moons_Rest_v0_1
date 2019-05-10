@@ -9,6 +9,8 @@
 //#include "Identifiers.h"
 #include <queue>
 #include "World.h"
+#include "Entity.h"
+
 
 class MessageHandler
 {

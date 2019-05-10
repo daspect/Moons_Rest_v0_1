@@ -20,3 +20,16 @@ namespace EntityType
 		Default,
 	};
 }
+
+namespace Textures
+{
+	enum ID
+	{
+		Landscape,
+		PlayerUp,
+		PlayerDown,
+		PlayerLeft,
+		PlayerRight,
+		Tree,
+	};
+}
